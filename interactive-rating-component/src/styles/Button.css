@@ -1,0 +1,17 @@
+.btn {
+  font: var(--text-preset-5-semibold);
+  font-weight: var(--font-weight-semibold);
+  text-transform: uppercase;
+  border: transparent;
+  width: 100%;
+  padding: var(--spacing-100) 0;
+  border-radius: 2.25rem;
+  background: var(--color-orange-500);
+  color: var(--color-grey-950);
+  cursor: pointer;
+  transition: 300ms ease-in-out all;
+}
+
+.btn:hover {
+  background: var(--color-white);
+}
