@@ -1,0 +1,29 @@
+.success-content {
+  text-align: center;
+  align-items: center;
+  gap: var(--spacing-300);
+}
+
+.success-content > div {
+  display: flex;
+  flex-direction: column;
+  gap: var(--spacing-200);
+}
+
+.success-content .selected {
+  color: var(--color-orange-500);
+  background: var(--color-grey-900);
+  border-radius: 2.25rem;
+  height: 3.2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  max-width: max-content;
+  padding: 0 var(--spacing-200);
+}
+
+@media screen and (min-width: 768px) {
+  .success-content {
+    font-weight: var(--spacing-400);
+  }
+}

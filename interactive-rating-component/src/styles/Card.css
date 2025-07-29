@@ -34,6 +34,7 @@
 
   .card-main h2 {
     font: var(--text-preset-1);
+    font-weight: var(--font-weight-bold);
   }
 
   .card-main p {

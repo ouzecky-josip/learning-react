@@ -17,6 +17,11 @@
   background: var(--color-white);
 }
 
+.btn:disabled {
+  background-color: var(--color-grey-500);
+  cursor: not-allowed;
+}
+
 @media screen and (min-width: 768px) {
   .btn {
     font: var(--text-preset-5-semibold);
