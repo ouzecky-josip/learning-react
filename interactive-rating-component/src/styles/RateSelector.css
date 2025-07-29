@@ -6,11 +6,12 @@
 }
 
 .rate {
-  font: var(--text-preset-3);
+  font: var(--text-preset-5-bold);
   font-weight: var(--font-weight-bold);
+  letter-spacing: var(--letter-spacing-5-bold);
   color: var(--color-grey-500);
-  width: 5.1rem;
-  height: 5.1rem;
+  width: 4.2rem;
+  height: 4.2rem;
   border-radius: 50%;
   background: var(--color-grey-900);
   display: flex;
@@ -29,4 +30,14 @@
 .rate.active {
   background: var(--color-orange-500);
   color: var(--color-grey-900);
+}
+
+@media screen and (min-width: 768px) {
+  .rate {
+    width: 4.8rem;
+    height: 4.8rem;
+    font: var(--text-preset-3);
+    font-weight: var(--font-weight-bold);
+    letter-spacing: var(--letter-spacing-3);
+  }
 }

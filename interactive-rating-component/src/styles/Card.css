@@ -3,10 +3,10 @@
   background: var(--color-gradient);
   padding: var(--spacing-400) var(--spacing-300);
   width: 100%;
-  max-width: 41.2rem;
+  max-width: 32rem;
   display: flex;
   flex-direction: column;
-  gap: var(--spacing-400);
+  gap: var(--spacing-300);
 }
 
 .card-main {
@@ -16,12 +16,27 @@
 }
 
 .card-main h2 {
-  font: var(--text-preset-1);
+  font: var(--text-preset-2);
   font-weight: var(--font-weight-bold);
 }
 
 .card-main p {
-  font: var(--text-preset-4-regular);
+  font: var(--text-preset-5-regular);
   font-weight: var(--font-weight-regular);
   color: var(--color-grey-500);
+}
+
+@media screen and (min-width: 768px) {
+  .card {
+    max-width: 38rem;
+    gap: var(--spacing-400);
+  }
+
+  .card-main h2 {
+    font: var(--text-preset-1);
+  }
+
+  .card-main p {
+    font: var(--text-preset-4-regular);
+  }
 }
