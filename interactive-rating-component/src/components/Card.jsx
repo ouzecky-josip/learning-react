@@ -17,11 +17,19 @@ const Card = () => {
     setIsRateSubmitted(true);
   };
 
+  const handleResetForm = () => {
+    setIsRateSubmitted(false);
+    setSelectedRate(0);
+  };
+
   return (
     <>
       {isRateSubmitted ? (
         <div className='card'>
-          <SuccessContent selectedRate={selectedRate} />
+          <SuccessContent
+            selectedRate={selectedRate}
+            resetForm={handleResetForm}
+          />
         </div>
       ) : (
         <div className='card'>

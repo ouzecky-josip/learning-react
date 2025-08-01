@@ -1,7 +1,8 @@
 import '../styles/SuccessContent.css';
+import Button from './Button';
 import SuccessIcon from './SuccessIcon';
 
-const SuccessContent = ({ selectedRate }) => {
+const SuccessContent = ({ selectedRate, resetForm }) => {
   return (
     <>
       <div className='card-main success-content'>
@@ -16,6 +17,10 @@ const SuccessContent = ({ selectedRate }) => {
             more support, don’t hesitate to get in touch!
           </p>
         </div>
+
+        <Button onButtonClick={resetForm} isDisabled={false}>
+          Rate Again
+        </Button>
       </div>
     </>
   );
