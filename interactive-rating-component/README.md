@@ -4,8 +4,9 @@
 
 ![project preview image](./docs/preview.jpg)
 
-### Users should be able to do:
+## Users should be able to do:
 
 - Select and submit a number rating
 - See the "Thank you" card state after submitting a rating
 - See hover states for all interactive elements on the page
+- Optionally rate again after viewing the "Thank you" card state
