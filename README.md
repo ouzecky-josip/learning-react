@@ -21,3 +21,7 @@ This repository is dedicated to practicing and learning React. Each project belo
 📁 Code: [interactive-rating-component](./interactive-rating-component/)
 
 🌐 Live Demo: [zegac-interactive-rating-component.netlify.app](https://zegac-interactive-rating-component.netlify.app/)
+
+## Project 2: Conference Ticket Generator
+
+`TODO`
